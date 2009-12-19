@@ -43,3 +43,9 @@ Import "../../osg.mod/osg.mod/src/osgPlugins/3ds/tcb.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/3ds/tracks.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/3ds/vector.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/3ds/viewport.cpp"
+
+Extern "C" 
+Function osgdb_3ds()
+End Extern
+
+osgdb_3ds
