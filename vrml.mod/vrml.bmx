@@ -31,4 +31,10 @@ Import "../../osg.mod/osg.mod/src/osgPlugins/vrml/ReaderWriterVRML2.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/vrml/IndexedFaceSet.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/vrml/Primitives.cpp"
 
+Extern "C" 
+Function osgdb_wrl()
+End Extern
+
+osgdb_wrl
+
 EndRem

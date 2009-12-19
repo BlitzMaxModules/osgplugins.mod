@@ -36,3 +36,9 @@ Import "../../osg.mod/osg.mod/src/osgPlugins/lwo/Surface.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/lwo/Tessellator.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/lwo/Unit.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/lwo/VertexMap.cpp"
+
+Extern "C" 
+Function osgdb_lwo()
+End Extern
+
+osgdb_lwo

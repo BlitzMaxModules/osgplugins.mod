@@ -24,3 +24,9 @@ ModuleInfo "CC_OPTS: -D_GLIBCXX_USE_WCHAR_T"
 Import "../../osg.mod/osg.mod/include/*.h"
 
 Import "../../osg.mod/osg.mod/src/osgPlugins/bmp/ReaderWriterBMP.cpp"
+
+Extern "C" 
+Function osgdb_bmp()
+End Extern
+
+osgdb_bmp

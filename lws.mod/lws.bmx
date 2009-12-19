@@ -25,3 +25,9 @@ Import "../../osg.mod/osg.mod/include/*.h"
 
 Import "../../osg.mod/osg.mod/src/osgPlugins/lws/ReaderWriterLWS.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/lws/SceneLoader.cpp"
+
+Extern "C" 
+Function osgdb_lws()
+End Extern
+
+osgdb_lws

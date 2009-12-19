@@ -26,3 +26,9 @@ Import "../../pub.mod/libpng.mod/*.h"
 Import "../../pub.mod/zlib.mod/*.h"
 
 Import "../../osg.mod/osg.mod/src/osgPlugins/png/ReaderWriterPNG.cpp"
+
+Extern "C" 
+Function osgdb_png()
+End Extern
+
+osgdb_png

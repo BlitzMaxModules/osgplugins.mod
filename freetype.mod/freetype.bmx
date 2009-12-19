@@ -25,4 +25,13 @@ Import "../../osg.mod/osg.mod/include/*.h"
 Import "../../pub.mod/freetype.mod/include/*.h"
 
 
-Import "../../osg.mod/osg.mod/src/osgPlugins/tga/ReaderWriterTGA.cpp"
+Import "../../osg.mod/osg.mod/src/osgPlugins/freetype/FreeTypeFont.cpp"
+Import "../../osg.mod/osg.mod/src/osgPlugins/freetype/FreeTypeFont3D.cpp"
+Import "../../osg.mod/osg.mod/src/osgPlugins/freetype/FreeTypeLibrary.cpp"
+Import "../../osg.mod/osg.mod/src/osgPlugins/freetype/ReaderWriterFreeType.cpp"
+
+Extern "C" 
+Function osgdb_freetype()
+End Extern
+
+osgdb_freetype
