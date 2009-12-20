@@ -21,6 +21,9 @@ ModuleInfo "CC_OPTS: -DOSG_LIBRARY_STATIC"
 ModuleInfo "CC_OPTS: -D_GLIBCXX_USE_WCHAR_T"
 ?
 
+Import pub.libpng
+Import pub.zlib
+
 Import "../../osg.mod/osg.mod/include/*.h"
 Import "../../pub.mod/libpng.mod/*.h"
 Import "../../pub.mod/zlib.mod/*.h"
