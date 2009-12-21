@@ -37,7 +37,7 @@ Import "external-libs/minizip/src/mztools.c"
 Import "external-libs/minizip/src/unzip.c"
 Import "external-libs/minizip/src/zip.c"
 
-Import "external-libs/pcre/pcre_exec.c"
+'Import "external-libs/pcre/pcre_exec.c"
 
 
 'Import "external-libs/pcre/dftables.c"
