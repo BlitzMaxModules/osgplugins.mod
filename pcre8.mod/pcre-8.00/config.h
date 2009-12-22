@@ -13,7 +13,7 @@
 #define HAVE_MEMMOVE 1
 #define HAVE_STRERROR 1
 #define HAVE_STRTOLL 1
-#define HAVE_STRTOQ 1
+/* #define HAVE_STRTOQ 1 */
 /* #undef HAVE__STRTOI64 */
 
 #define PCRE_STATIC 1

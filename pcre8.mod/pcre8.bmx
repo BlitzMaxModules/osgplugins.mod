@@ -19,9 +19,9 @@ ModuleInfo "CC_OPTS: -DPCRE_STATIC"
 
 Import "./pcre-8.00/*.h"
 
-Import "./pcre-8.00/pcrecpp.cc"
-Import "./pcre-8.00/pcre_scanner.cc"
-Import "./pcre-8.00/pcre_stringpiece.cc"
+Import "./pcre-8.00/pcrecpp.cpp"
+Import "./pcre-8.00/pcre_scanner.cpp"
+Import "./pcre-8.00/pcre_stringpiece.cpp"
 
 Import "./pcre-8.00/pcre_chartables.c"
 Import "./pcre-8.00/pcre_compile.c"

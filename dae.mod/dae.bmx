@@ -44,8 +44,6 @@ Import "../../osg.mod/osg.mod/src/osgPlugins/dae/daeWTransforms.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/dae/daeWriter.cpp"
 Import "../../osg.mod/osg.mod/src/osgPlugins/dae/domSourceReader.cpp"
 
-'Import "bin/libcollada14dom21-s.a"
-
 Extern "C" 
 Function osgdb_dae()
 End Extern
