@@ -16,8 +16,6 @@ ModuleInfo "History: beastly build"
 
 Import "./jpeg-7/*.h"
 
-Import "../../osg.mod/osg.mod/include/*.h"
-
 Import "jpeg-7/jaricom.c"
 Import "jpeg-7/jcapimin.c" 
 Import "jpeg-7/jcapistd.c" 
@@ -65,9 +63,3 @@ Import "jpeg-7/jmemnobs.c"
 Import "jpeg-7/jquant1.c" 
 Import "jpeg-7/jquant2.c" 
 Import "jpeg-7/jutils.c" 
-
-Extern "C" 
-Function osgdb_jpeg()
-End Extern
-
-osgdb_jpeg

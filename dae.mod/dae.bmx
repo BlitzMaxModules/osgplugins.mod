@@ -15,6 +15,9 @@ ModuleInfo "History: 0.01 Release"
 ModuleInfo "History: beastly build"
 
 ModuleInfo "CC_OPTS: -fexceptions" 
+ModuleInfo "CC_OPTS: -DNO_BOOST"
+ModuleInfo "CC_OPTS: -DDOM_INCLUDE_TINYXML"
+ModuleInfo "CC_OPTS: -DNO_ZAE"
 ModuleInfo "CC_OPTS: -DOT_LIBRARY_STATIC"
 ModuleInfo "CC_OPTS: -DOSG_LIBRARY_STATIC"
 ?Win32

@@ -18,12 +18,17 @@ ModuleInfo "CC_OPTS: -DNO_BOOST"
 ModuleInfo "CC_OPTS: -DDOM_INCLUDE_TINYXML"
 ModuleInfo "CC_OPTS: -DNO_ZAE"
 
+ModuleInfo "CC_OPTS: -DHAVE_CONFIG_H"
+ModuleInfo "CC_OPTS: -DPCRE_STATIC"
+
 Import pub.zlib
+Import osgplugins.pcre8
+
+Import "../pcre8.mod/pcre-8.00/*.h"
 
 Import "include/*.h"
 Import "include/1.4/*.h"
 
-Import "external-libs/pcre/*.h"
 Import "external-libs/minizip/include/*.h"
 Import "external-libs/tinyxml/*.h"
 
@@ -36,37 +41,6 @@ Import "external-libs/minizip/src/ioapi.c"
 Import "external-libs/minizip/src/mztools.c"
 Import "external-libs/minizip/src/unzip.c"
 Import "external-libs/minizip/src/zip.c"
-
-'Import "external-libs/pcre/pcre_exec.c"
-
-
-'Import "external-libs/pcre/dftables.c"
-Rem
-pcredemo.c
-pcregrep.c
-pcreposix.c
-pcretest.c
-pcre_chartables.c
-pcre_compile.c
-pcre_config.c
-pcre_dfa_exec.c
-pcre_exec.c
-pcre_fullinfo.c
-pcre_get.c
-pcre_globals.c
-pcre_info.c
-pcre_maketables.c
-pcre_newline.c
-pcre_ord2utf8.c
-pcre_refcount.c
-pcre_study.c
-pcre_tables.c
-pcre_try_flipped.c
-pcre_ucp_searchfuncs.c
-pcre_valid_utf8.c
-pcre_version.c
-pcre_xclass.c
-EndRem
 
 Import "src/1.4/dom/domAccessor.cpp"
 Import "src/1.4/dom/domAnimation.cpp"
@@ -269,7 +243,7 @@ Import "src/dae/daeStringTable.cpp"
 Import "src/dae/daeTinyXMLPlugin.cpp"
 Import "src/dae/daeURI.cpp"
 Import "src/dae/daeUtils.cpp"
-'Import "src/dae/daeZAEUncompressHandler.cpp"
+Import "src/dae/daeZAEUncompressHandler.cpp"
 Import "src/dae/domAny.cpp"
 
 'Import "src/modules/LIBXMLPlugin/daeLIBXMLPlugin.cpp"
